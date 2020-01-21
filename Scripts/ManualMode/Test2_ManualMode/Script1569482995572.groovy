@@ -37,4 +37,3 @@ WebUI.click(findTestObject('Test2_OR/Page_Execute Automation/input_EnglishHindi_
 
 WebUI.closeBrowser()
 
-println("Test case by hema")
