@@ -1,0 +1,12 @@
+1
+00:00:00,320 --> 00:00:00,323
+1. openBrowser(URL)
+
+2
+00:00:08,778 --> 00:00:08,779
+5. setText(findTestObject("Test2_OR/Page_Execute Automation/input_Login_UserName"), username)
+
+3
+00:00:08,970 --> 00:00:08,971
+9. acceptAlert()
+

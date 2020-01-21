@@ -1,0 +1,4 @@
+1
+00:00:00,298 --> 00:00:00,302
+1. openBrowser("http://executeautomation.com/demosite/Login.html")
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Sample" time="13" tests="1" failures="0" errors="0">
+    <testsuite name="Sample" tests="1" failures="0" errors="0" time="13" timestamp="2019-10-18 10:28:49" hostname="hemavathi - MSDES05.ad.matryxsoft.com" id="Test Suites/Sample">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="D:\\Katalon sample projects\\Sample\\Reports\\20191018_102847\\Sample\\20191018_102847"/>
+            <property name="logFiles" value="D:\\Katalon sample projects\\Sample\\Reports\\20191018_102847\\Sample\\20191018_102847\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="hemavathi - MSDES05.ad.matryxsoft.com"/>
+            <property name="os" value="Windows 7 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Firefox 69.0"/>
+            <property name="hostAddress" value="10.10.20.3"/>
+            <property name="sessionId" value="e3a02755-c318-4dd3-b424-a9b0607ea403"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 7"/>
+        </properties>
+        <testcase name="Test Cases/SampleTestcases/DataDrivenTest" classname="Test Cases/SampleTestcases/DataDrivenTest" status="PASSED">
+            <system-out>2019-10-18 10:28:50 - [TEST_CASE][PASSED] - Test Cases/SampleTestcases/DataDrivenTest: Test Cases/SampleTestcases/DataDrivenTest&#xD;
+&#xD;
+2019-10-18 10:28:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-18 10:28:51 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-10-18 10:28:51 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-10-18 10:28:56 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-18 10:28:56 - [TEST_STEP][PASSED] - navigateToUrl("http://executeautomation.com/demosite/Login.html"): Navigate to 'http://executeautomation.com/demosite/Login.html' successfully&#xD;
+&#xD;
+2019-10-18 10:28:58 - [MESSAGE][PASSED] - Navigate to 'http://executeautomation.com/demosite/Login.html' successfully&#xD;
+&#xD;
+2019-10-18 10:28:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Execute Automation/input_Login_UserName"), username): Text 'admin' is set on object 'Object Repository/Page_Execute Automation/input_Login_UserName'&#xD;
+&#xD;
+2019-10-18 10:28:59 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Execute Automation/input_Login_UserName'&#xD;
+&#xD;
+2019-10-18 10:28:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Execute Automation/input_Login_Password"), password): Text 'admin' is set on object 'Object Repository/Page_Execute Automation/input_Login_Password'&#xD;
+&#xD;
+2019-10-18 10:28:59 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Execute Automation/input_Login_Password'&#xD;
+&#xD;
+2019-10-18 10:28:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Execute Automation/input_Login_Login")): Object: 'Object Repository/Page_Execute Automation/input_Login_Login' is clicked on&#xD;
+&#xD;
+2019-10-18 10:28:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_Login_Login' is clicked on&#xD;
+&#xD;
+2019-10-18 10:28:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Execute Automation/select_SelectMrMs"), "2", true): All options with value '2' are selected in object 'Object Repository/Page_Execute Automation/select_SelectMrMs'  using regular expression&#xD;
+&#xD;
+2019-10-18 10:29:00 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Execute Automation/select_SelectMrMs'  using regular expression&#xD;
+&#xD;
+2019-10-18 10:29:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Execute Automation/input_Initial_Initial"), "N"): Text 'N' is set on object 'Object Repository/Page_Execute Automation/input_Initial_Initial'&#xD;
+&#xD;
+2019-10-18 10:29:00 - [MESSAGE][PASSED] - Text 'N' is set on object 'Object Repository/Page_Execute Automation/input_Initial_Initial'&#xD;
+&#xD;
+2019-10-18 10:29:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Execute Automation/input__FirstName"), "Hema"): Text 'Hema' is set on object 'Object Repository/Page_Execute Automation/input__FirstName'&#xD;
+&#xD;
+2019-10-18 10:29:00 - [MESSAGE][PASSED] - Text 'Hema' is set on object 'Object Repository/Page_Execute Automation/input__FirstName'&#xD;
+&#xD;
+2019-10-18 10:29:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Execute Automation/input_Middle Name_MiddleName"), "vathi"): Text 'vathi' is set on object 'Object Repository/Page_Execute Automation/input_Middle Name_MiddleName'&#xD;
+&#xD;
+2019-10-18 10:29:00 - [MESSAGE][PASSED] - Text 'vathi' is set on object 'Object Repository/Page_Execute Automation/input_Middle Name_MiddleName'&#xD;
+&#xD;
+2019-10-18 10:29:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Execute Automation/input_MaleFemale_Female")): Object: 'Object Repository/Page_Execute Automation/input_MaleFemale_Female' is clicked on&#xD;
+&#xD;
+2019-10-18 10:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_MaleFemale_Female' is clicked on&#xD;
+&#xD;
+2019-10-18 10:29:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Execute Automation/input_EnglishHindi_Save")): Object: 'Object Repository/Page_Execute Automation/input_EnglishHindi_Save' is clicked on&#xD;
+&#xD;
+2019-10-18 10:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_EnglishHindi_Save' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-18 10:28:49 - [TEST_SUITE][INCOMPLETE] - Sample: null</system-out>
+        <system-err>2019-10-18 10:28:49 - [TEST_SUITE][INCOMPLETE] - Sample: null</system-err>
+    </testsuite>
+</testsuites>

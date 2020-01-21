@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TestSuiteForDataDrivenTests" time="20" tests="1" failures="0" errors="0">
+    <testsuite name="TestSuiteForDataDrivenTests" tests="1" failures="0" errors="0" time="20" timestamp="2019-10-15 11:34:55" hostname="hemavathi - MSDES05.ad.matryxsoft.com" id="Test Suites/TestSuiteForDataDrivenTests">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="D:\\Katalon sample projects\\Sample\\Reports\\20191015_113453\\TestSuiteForDataDrivenTests\\20191015_113453"/>
+            <property name="logFiles" value="D:\\Katalon sample projects\\Sample\\Reports\\20191015_113453\\TestSuiteForDataDrivenTests\\20191015_113453\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="hemavathi - MSDES05.ad.matryxsoft.com"/>
+            <property name="os" value="Windows 7 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Firefox 68.0"/>
+            <property name="hostAddress" value="10.10.20.3"/>
+            <property name="sessionId" value="08fdb6e2-22e4-4cb6-be07-354a52dcf9f8"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 7"/>
+        </properties>
+        <testcase name="Test Cases/DataDrivenTest/Test6_DatadrivenTest" classname="Test Cases/DataDrivenTest/Test6_DatadrivenTest" status="PASSED">
+            <system-out>2019-10-15 11:34:55 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTest/Test6_DatadrivenTest: Test Cases/DataDrivenTest/Test6_DatadrivenTest&#xD;
+&#xD;
+2019-10-15 11:34:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-15 11:34:56 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-10-15 11:34:56 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-10-15 11:35:01 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-15 11:35:01 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("Data2").getValue(1, 1)): Navigate to 'https://www.phptravels.net/login' successfully&#xD;
+&#xD;
+2019-10-15 11:35:06 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/login' successfully&#xD;
+&#xD;
+2019-10-15 11:35:06 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum &lt;= findTestData("Data1").getRowNumbers(), (rowNum++)]): null&#xD;
+&#xD;
+2019-10-15 11:35:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test6_OR/Page_Login/input_Email_username"), findTestData("Data1").getValue(1, rowNum)): Text 'user@phptravels.com' is set on object 'Object Repository/Test6_OR/Page_Login/input_Email_username'&#xD;
+&#xD;
+2019-10-15 11:35:06 - [MESSAGE][PASSED] - Text 'user@phptravels.com' is set on object 'Object Repository/Test6_OR/Page_Login/input_Email_username'&#xD;
+&#xD;
+2019-10-15 11:35:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Test6_OR/Page_Login/input_Password_password"), findTestData("Data1").getValue(2, rowNum)): Text ****** has been set on object 'Object Repository/Test6_OR/Page_Login/input_Password_password'&#xD;
+&#xD;
+2019-10-15 11:35:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Test6_OR/Page_Login/input_Password_password'&#xD;
+&#xD;
+2019-10-15 11:35:06 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-10-15 11:35:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test6_OR/Page_Login/input_Email_username"), findTestData("Data1").getValue(1, rowNum)): Text 'hema@gmail.com' is set on object 'Object Repository/Test6_OR/Page_Login/input_Email_username'&#xD;
+&#xD;
+2019-10-15 11:35:10 - [MESSAGE][PASSED] - Text 'hema@gmail.com' is set on object 'Object Repository/Test6_OR/Page_Login/input_Email_username'&#xD;
+&#xD;
+2019-10-15 11:35:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Test6_OR/Page_Login/input_Password_password"), findTestData("Data1").getValue(2, rowNum)): Text ****** has been set on object 'Object Repository/Test6_OR/Page_Login/input_Password_password'&#xD;
+&#xD;
+2019-10-15 11:35:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Test6_OR/Page_Login/input_Password_password'&#xD;
+&#xD;
+2019-10-15 11:35:10 - [TEST_STEP][PASSED] - Thread.sleep(3000): null&#xD;
+&#xD;
+2019-10-15 11:35:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test6_OR/Page_Login/button_Login")): Object: 'Object Repository/Test6_OR/Page_Login/button_Login' is clicked on&#xD;
+&#xD;
+2019-10-15 11:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Test6_OR/Page_Login/button_Login' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-15 11:34:55 - [TEST_SUITE][INCOMPLETE] - TestSuiteForDataDrivenTests: null</system-out>
+        <system-err>2019-10-15 11:34:55 - [TEST_SUITE][INCOMPLETE] - TestSuiteForDataDrivenTests: null</system-err>
+    </testsuite>
+</testsuites>

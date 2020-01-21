@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TestSuite_DataFrom Excel" time="15" tests="1" failures="0" errors="0">
+    <testsuite name="TestSuite_DataFrom Excel" tests="1" failures="0" errors="0" time="15" timestamp="2019-12-05 10:45:43" hostname="hemavathi - MSDES05.ad.matryxsoft.com" id="Test Suites/TestSuite_DataFrom Excel">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="D:\\Katalon sample projects\\Sample\\Reports\\20191205_104534\\TestSuite_DataFrom Excel\\20191205_104535"/>
+            <property name="logFiles" value="D:\\Katalon sample projects\\Sample\\Reports\\20191205_104534\\TestSuite_DataFrom Excel\\20191205_104535\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="hemavathi - MSDES05.ad.matryxsoft.com"/>
+            <property name="os" value="Windows 7 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Firefox 69.0"/>
+            <property name="hostAddress" value="10.10.20.4"/>
+            <property name="sessionId" value="4d757bf1-4f39-4e56-964c-a7e472985287"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 7"/>
+        </properties>
+        <testcase name="Test Cases/DataFromExcel" classname="Test Cases/DataFromExcel" status="PASSED">
+            <system-out>2019-12-05 10:45:44 - [TEST_CASE][PASSED] - Test Cases/DataFromExcel: Test Cases/DataFromExcel&#xD;
+&#xD;
+2019-12-05 10:45:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-12-05 10:45:45 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-12-05 10:45:45 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-12-05 10:45:54 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-12-05 10:45:54 - [TEST_STEP][PASSED] - navigateToUrl("http://executeautomation.com/demosite/Login.html"): Navigate to 'http://executeautomation.com/demosite/Login.html' successfully&#xD;
+&#xD;
+2019-12-05 10:45:56 - [MESSAGE][PASSED] - Navigate to 'http://executeautomation.com/demosite/Login.html' successfully&#xD;
+&#xD;
+2019-12-05 10:45:56 - [TEST_STEP][PASSED] - setText(findTestObject("Manual/Page_Execute Automation/input_Login_UserName"), "admin"): Text 'admin' is set on object 'Object Repository/Manual/Page_Execute Automation/input_Login_UserName'&#xD;
+&#xD;
+2019-12-05 10:45:56 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Manual/Page_Execute Automation/input_Login_UserName'&#xD;
+&#xD;
+2019-12-05 10:45:56 - [TEST_STEP][PASSED] - setText(findTestObject("Manual/Page_Execute Automation/input_Login_Password"), "admin"): Text 'admin' is set on object 'Object Repository/Manual/Page_Execute Automation/input_Login_Password'&#xD;
+&#xD;
+2019-12-05 10:45:56 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Manual/Page_Execute Automation/input_Login_Password'</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-12-05 10:45:43 - [TEST_SUITE][INCOMPLETE] - TestSuite_DataFrom Excel: null</system-out>
+        <system-err>2019-12-05 10:45:43 - [TEST_SUITE][INCOMPLETE] - TestSuite_DataFrom Excel: null</system-err>
+    </testsuite>
+</testsuites>

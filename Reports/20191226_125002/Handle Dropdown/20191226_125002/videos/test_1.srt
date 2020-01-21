@@ -1,0 +1,4 @@
+1
+00:00:00,257 --> 00:00:00,260
+1. openBrowser("https://facebook.com")
+

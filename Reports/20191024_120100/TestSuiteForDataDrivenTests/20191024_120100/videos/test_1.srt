@@ -1,0 +1,76 @@
+1
+00:00:00,294 --> 00:00:00,299
+1. openBrowser("")
+
+2
+00:00:06,473 --> 00:00:06,474
+5. navigateToUrl(url)
+
+3
+00:00:12,224 --> 00:00:12,226
+9. for ([rowNum = 1, rowNum <= findTestData("Data1").getRowNumbers(), (rowNum++)])
+
+4
+00:00:12,912 --> 00:00:12,913
+1. setText(findTestObject("Test5_OR/Page_Login/input_Email_username"), findTestData("Data1").getValue(1, rowNum))
+
+5
+00:00:13,200 --> 00:00:13,201
+5. setText(findTestObject("Test5_OR/Page_Login/input_Password_password"), findTestData("Data1").getValue(2, rowNum))
+
+6
+00:00:13,405 --> 00:00:13,410
+9. Thread.sleep(3000)
+
+7
+00:00:16,445 --> 00:00:16,447
+1. setText(findTestObject("Test5_OR/Page_Login/input_Email_username"), findTestData("Data1").getValue(1, rowNum))
+
+8
+00:00:16,599 --> 00:00:16,599
+5. setText(findTestObject("Test5_OR/Page_Login/input_Password_password"), findTestData("Data1").getValue(2, rowNum))
+
+9
+00:00:16,760 --> 00:00:16,761
+9. Thread.sleep(3000)
+
+10
+00:00:19,786 --> 00:00:19,787
+1. setText(findTestObject("Test5_OR/Page_Login/input_Email_username"), findTestData("Data1").getValue(1, rowNum))
+
+11
+00:00:19,956 --> 00:00:19,957
+5. setText(findTestObject("Test5_OR/Page_Login/input_Password_password"), findTestData("Data1").getValue(2, rowNum))
+
+12
+00:00:20,089 --> 00:00:20,090
+9. Thread.sleep(3000)
+
+13
+00:00:23,121 --> 00:00:23,122
+1. setText(findTestObject("Test5_OR/Page_Login/input_Email_username"), findTestData("Data1").getValue(1, rowNum))
+
+14
+00:00:23,249 --> 00:00:23,250
+5. setText(findTestObject("Test5_OR/Page_Login/input_Password_password"), findTestData("Data1").getValue(2, rowNum))
+
+15
+00:00:23,370 --> 00:00:23,371
+9. Thread.sleep(3000)
+
+16
+00:00:26,395 --> 00:00:26,396
+1. setText(findTestObject("Test5_OR/Page_Login/input_Email_username"), findTestData("Data1").getValue(1, rowNum))
+
+17
+00:00:26,524 --> 00:00:26,525
+5. setText(findTestObject("Test5_OR/Page_Login/input_Password_password"), findTestData("Data1").getValue(2, rowNum))
+
+18
+00:00:26,632 --> 00:00:26,633
+9. Thread.sleep(3000)
+
+19
+00:00:29,662 --> 00:00:29,665
+13. click(findTestObject("Test5_OR/Page_Login/button_Login"))
+

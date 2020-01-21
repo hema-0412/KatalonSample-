@@ -1,0 +1,48 @@
+1
+00:00:00,218 --> 00:00:00,222
+1. openBrowser("http://executeautomation.com/demosite/Login.html")
+
+2
+00:00:11,788 --> 00:00:11,789
+5. setText(findTestObject("Test2_OR/Page_Execute Automation/input_Login_UserName"), "admin")
+
+3
+00:00:12,012 --> 00:00:12,013
+9. setEncryptedText(findTestObject("Test2_OR/Page_Execute Automation/input_Login_Password"), "RAIVpflpDOg=")
+
+4
+00:00:12,276 --> 00:00:12,277
+13. click(findTestObject("Test2_OR/Page_Execute Automation/input_Login_Login"))
+
+5
+00:00:12,973 --> 00:00:12,981
+17. selectOptionByValue(findTestObject("Test2_OR/Page_Execute Automation/select_SelectMrMs"), "2", true)
+
+6
+00:00:13,598 --> 00:00:13,599
+21. setText(findTestObject("Test2_OR/Page_Execute Automation/input_Initial_Initial"), "N")
+
+7
+00:00:13,727 --> 00:00:13,728
+25. setText(findTestObject("Test2_OR/Page_Execute Automation/input__FirstName"), "Hema")
+
+8
+00:00:13,900 --> 00:00:13,901
+29. setText(findTestObject("Test2_OR/Page_Execute Automation/input_Middle Name_MiddleName"), "vathi")
+
+9
+00:00:14,061 --> 00:00:14,061
+33. click(findTestObject("Test2_OR/Page_Execute Automation/input_MaleFemale_Female"))
+
+10
+00:00:14,374 --> 00:00:14,374
+37. click(findTestObject("Test2_OR/Page_Execute Automation/input_EnglishHindi_english"))
+
+11
+00:00:14,653 --> 00:00:14,653
+41. click(findTestObject("Test2_OR/Page_Execute Automation/input_EnglishHindi_Save"))
+
+12
+00:00:14,998 --> 00:00:14,998
+45. closeBrowser()
+

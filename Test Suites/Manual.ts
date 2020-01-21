@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Manual</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>3e70d4b3-ab06-4b2e-8124-e97f6436635c</testSuiteGuid>
+   <testCaseLink>
+      <guid>28803a74-dc57-46c6-81ea-3a436429cd29</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ManualMode/Test2_ManualMode</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f064426e-0ba1-4645-a50b-23f28cfa0539</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataFromExcel</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>73b250c8-09a0-4091-b28a-45b23014d2dc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5e66296a-c565-4146-b1fe-a5659cfa96a8</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

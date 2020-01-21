@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TestSuiteForDataDrivenTests</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient>hemavathin13@gmail.com;</mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <testSuiteGuid>d926dbd7-b1ee-466a-b761-88f70ad128e0</testSuiteGuid>
+   <testCaseLink>
+      <guid>6aace90a-4cb6-4520-b61f-8a6336f28eb1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DataDrivenTest/Test5_DatadrivenTest</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c4351cf2-7538-4bcd-b0c4-53b0411ddf4e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data1</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c4351cf2-7538-4bcd-b0c4-53b0411ddf4e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>7c4e0379-fcb2-42b6-ac80-6bc6986f80cf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c4351cf2-7538-4bcd-b0c4-53b0411ddf4e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>ea35a1f1-abce-4b8f-b294-ff06a4c707a2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f9c890a3-fe31-4f1b-8ce5-2c66c641f201</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

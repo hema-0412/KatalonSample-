@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test5_DatadrivenTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a754bd66-70f9-441b-9ba0-5f9a72f13c43</testCaseGuid>
+   <variable>
+      <defaultValue>'user@phptravels.com'</defaultValue>
+      <description></description>
+      <id>7c4e0379-fcb2-42b6-ac80-6bc6986f80cf</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'demo'</defaultValue>
+      <description></description>
+      <id>ea35a1f1-abce-4b8f-b294-ff06a4c707a2</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.phptravels.net/login'</defaultValue>
+      <description></description>
+      <id>f9c890a3-fe31-4f1b-8ce5-2c66c641f201</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

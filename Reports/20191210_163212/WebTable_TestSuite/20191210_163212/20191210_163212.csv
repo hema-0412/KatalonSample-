@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WebTable_TestSuite,Firefox 69.0,,,2019-12-10 16:32:20,2019-12-10 16:32:59,39.339s,PASSED
+,,,,,,,
+Test Cases/WebTable/WebTable - Performing Action,Firefox 69.0,,,2019-12-10 16:32:20,2019-12-10 16:32:59,39.111s,PASSED
+"openBrowser("""")",Firefox 69.0,,,2019-12-10 16:32:21,2019-12-10 16:32:30,9.633s,PASSED
+"navigateToUrl(""https://www.espn.in/mlb/team/depth/_/name/bos"")",Firefox 69.0,,,2019-12-10 16:32:30,2019-12-10 16:32:39,8.376s,PASSED
+waitForPageLoad(10),Firefox 69.0,,,2019-12-10 16:32:39,2019-12-10 16:32:39,0.175s,PASSED
+maximizeWindow(),Firefox 69.0,,,2019-12-10 16:32:39,2019-12-10 16:32:39,0.604s,PASSED
+driver = getWebDriver(),Firefox 69.0,,,2019-12-10 16:32:39,2019-12-10 16:32:39,0.004s,PASSED
+"ExpectedValue = ""Heath Hembree""",Firefox 69.0,Expected value from Table,,2019-12-10 16:32:39,2019-12-10 16:32:39,0.002s,PASSED
+"Table = driver.findElement(By.xpath(""/html/body/div[1]/div/div/div/div/div[5]/div[2]/div[5]/div[1]/div[1]/section/div/section/div[2]/div[1]/section/div[2]/div""))",Firefox 69.0,To locate table,,2019-12-10 16:32:39,2019-12-10 16:32:42,2.090s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Firefox 69.0,To locate rows of table it will Capture all the rows available in the table,,2019-12-10 16:32:42,2019-12-10 16:32:42,0.592s,PASSED
+rows_count = rows_table.size(),Firefox 69.0,To calculate no of rows In table,,2019-12-10 16:32:42,2019-12-10 16:32:42,0.002s,PASSED
+println(rows_count),Firefox 69.0,,,2019-12-10 16:32:42,2019-12-10 16:32:42,0.004s,PASSED
+Value = false,Firefox 69.0,,,2019-12-10 16:32:42,2019-12-10 16:32:42,0.001s,PASSED
+"for ([i = 0, i < rows_count, (i++)])",Firefox 69.0,Loop will execute for all the rows of the table,,2019-12-10 16:32:42,2019-12-10 16:32:57,15.058s,PASSED

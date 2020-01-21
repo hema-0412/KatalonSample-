@@ -1,0 +1,296 @@
+1
+00:00:01,087 --> 00:00:01,091
+1. openBrowser("")
+
+2
+00:00:10,295 --> 00:00:10,296
+5. navigateToUrl("https://www.espn.in/mlb/team/depth/_/name/bos")
+
+3
+00:00:19,501 --> 00:00:19,502
+9. waitForPageLoad(10)
+
+4
+00:00:19,750 --> 00:00:19,751
+13. maximizeWindow()
+
+5
+00:00:20,208 --> 00:00:20,210
+17. driver = getWebDriver()
+
+6
+00:00:20,212 --> 00:00:20,217
+23. Expected value from Table
+
+7
+00:00:20,217 --> 00:00:20,220
+29. To locate table
+
+8
+00:00:20,352 --> 00:00:20,354
+35. To locate rows of table it will Capture all the rows available in the table
+
+9
+00:00:20,438 --> 00:00:20,439
+41. To calculate no of rows In table
+
+10
+00:00:20,440 --> 00:00:20,441
+45. println(rows_count)
+
+11
+00:00:20,443 --> 00:00:20,444
+49. Value = false
+
+12
+00:00:20,444 --> 00:00:20,445
+55. Loop will execute for all the rows of the table
+
+13
+00:00:20,446 --> 00:00:20,446
+3. To locate columns(cells) of that specific row
+
+14
+00:00:20,519 --> 00:00:20,520
+9. To calculate no of columns(cells) In that specific row
+
+15
+00:00:20,520 --> 00:00:20,521
+13. println("Number of cells In Row " + i + " are " + columns_count)
+
+16
+00:00:20,522 --> 00:00:20,523
+19. Loop will execute till the last cell of that specific row
+
+17
+00:00:20,523 --> 00:00:20,524
+23. if (Value == true)
+
+18
+00:00:20,524 --> 00:00:20,525
+3. To locate columns(cells) of that specific row
+
+19
+00:00:20,604 --> 00:00:20,606
+9. To calculate no of columns(cells) In that specific row
+
+20
+00:00:20,606 --> 00:00:20,607
+13. println("Number of cells In Row " + i + " are " + columns_count)
+
+21
+00:00:20,607 --> 00:00:20,608
+19. Loop will execute till the last cell of that specific row
+
+22
+00:00:20,609 --> 00:00:20,610
+3. It will retrieve text from each cell
+
+23
+00:00:20,718 --> 00:00:20,719
+7. println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext)
+
+24
+00:00:20,719 --> 00:00:20,720
+11. if (Value == false)
+
+25
+00:00:20,721 --> 00:00:20,722
+3. Checking if Cell text is matching with the expected value
+
+26
+00:00:20,723 --> 00:00:20,732
+3. It will retrieve text from each cell
+
+27
+00:00:20,800 --> 00:00:20,801
+7. println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext)
+
+28
+00:00:20,801 --> 00:00:20,802
+11. if (Value == false)
+
+29
+00:00:20,806 --> 00:00:20,807
+3. Checking if Cell text is matching with the expected value
+
+30
+00:00:20,807 --> 00:00:20,808
+3. It will retrieve text from each cell
+
+31
+00:00:20,848 --> 00:00:20,848
+7. println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext)
+
+32
+00:00:20,849 --> 00:00:20,849
+11. if (Value == false)
+
+33
+00:00:20,850 --> 00:00:20,850
+3. Checking if Cell text is matching with the expected value
+
+34
+00:00:20,850 --> 00:00:20,851
+3. It will retrieve text from each cell
+
+35
+00:00:20,897 --> 00:00:20,898
+7. println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext)
+
+36
+00:00:20,898 --> 00:00:20,899
+11. if (Value == false)
+
+37
+00:00:20,900 --> 00:00:20,901
+3. Checking if Cell text is matching with the expected value
+
+38
+00:00:20,901 --> 00:00:20,902
+3. It will retrieve text from each cell
+
+39
+00:00:20,944 --> 00:00:20,944
+7. println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext)
+
+40
+00:00:20,945 --> 00:00:20,945
+11. if (Value == false)
+
+41
+00:00:20,946 --> 00:00:20,946
+3. Checking if Cell text is matching with the expected value
+
+42
+00:00:20,946 --> 00:00:20,947
+23. if (Value == true)
+
+43
+00:00:20,948 --> 00:00:20,948
+3. To locate columns(cells) of that specific row
+
+44
+00:00:20,974 --> 00:00:20,975
+9. To calculate no of columns(cells) In that specific row
+
+45
+00:00:20,975 --> 00:00:20,976
+13. println("Number of cells In Row " + i + " are " + columns_count)
+
+46
+00:00:20,976 --> 00:00:20,977
+19. Loop will execute till the last cell of that specific row
+
+47
+00:00:20,977 --> 00:00:20,977
+3. It will retrieve text from each cell
+
+48
+00:00:21,009 --> 00:00:21,010
+7. println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext)
+
+49
+00:00:21,010 --> 00:00:21,011
+11. if (Value == false)
+
+50
+00:00:21,011 --> 00:00:21,012
+3. Checking if Cell text is matching with the expected value
+
+51
+00:00:21,012 --> 00:00:21,013
+3. It will retrieve text from each cell
+
+52
+00:00:21,043 --> 00:00:21,044
+7. println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext)
+
+53
+00:00:21,044 --> 00:00:21,045
+11. if (Value == false)
+
+54
+00:00:21,045 --> 00:00:21,045
+3. Checking if Cell text is matching with the expected value
+
+55
+00:00:21,045 --> 00:00:21,046
+3. It will retrieve text from each cell
+
+56
+00:00:21,096 --> 00:00:21,097
+7. println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext)
+
+57
+00:00:21,097 --> 00:00:21,098
+11. if (Value == false)
+
+58
+00:00:21,098 --> 00:00:21,098
+3. Checking if Cell text is matching with the expected value
+
+59
+00:00:21,098 --> 00:00:21,099
+3. It will retrieve text from each cell
+
+60
+00:00:21,145 --> 00:00:21,146
+7. println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext)
+
+61
+00:00:21,146 --> 00:00:21,147
+11. if (Value == false)
+
+62
+00:00:21,148 --> 00:00:21,148
+3. Checking if Cell text is matching with the expected value
+
+63
+00:00:21,148 --> 00:00:21,149
+3. It will retrieve text from each cell
+
+64
+00:00:21,176 --> 00:00:21,177
+7. println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext)
+
+65
+00:00:21,177 --> 00:00:21,178
+11. if (Value == false)
+
+66
+00:00:21,178 --> 00:00:21,178
+3. Checking if Cell text is matching with the expected value
+
+67
+00:00:21,178 --> 00:00:21,179
+3. Clicking on the specified player given as a input
+
+68
+00:00:27,087 --> 00:00:27,089
+7. waitForPageLoad(10)
+
+69
+00:00:27,112 --> 00:00:27,113
+13. Clicking on the statistics of the Specified player
+
+70
+00:00:31,598 --> 00:00:31,599
+17. waitForPageLoad(10)
+
+71
+00:00:31,637 --> 00:00:31,638
+21. Value = true
+
+72
+00:00:31,638 --> 00:00:31,639
+25. break
+
+73
+00:00:31,639 --> 00:00:31,640
+23. if (Value == true)
+
+74
+00:00:31,640 --> 00:00:31,640
+1. break
+

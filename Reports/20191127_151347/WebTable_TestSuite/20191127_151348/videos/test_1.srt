@@ -1,0 +1,8 @@
+1
+00:00:00,597 --> 00:00:00,602
+1. openBrowser("")
+
+2
+00:00:08,859 --> 00:00:08,860
+5. navigateToUrl("https://www.espn.in/mlb/team/depth/_/name/bos")
+

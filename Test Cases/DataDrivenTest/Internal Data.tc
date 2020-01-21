@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Internal Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e707037b-9977-401a-a070-bc923c9bff2a</testCaseGuid>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description></description>
+      <id>ba2eb0fe-4cbf-442e-ad4f-b2f25c737757</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description></description>
+      <id>2521c099-ddd7-49dd-896c-4c66a6780394</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

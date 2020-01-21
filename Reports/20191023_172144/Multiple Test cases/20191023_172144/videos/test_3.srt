@@ -1,0 +1,16 @@
+1
+00:00:00,119 --> 00:00:00,120
+1. openBrowser("")
+
+2
+00:00:08,247 --> 00:00:08,248
+5. navigateToUrl(findTestData("Data2").getValue(1, 1))
+
+3
+00:03:53,723 --> 00:03:53,724
+9. for ([rowNum = 1, rowNum <= findTestData("Data1").getRowNumbers(), (rowNum++)])
+
+4
+00:03:53,756 --> 00:03:53,756
+1. setText(findTestObject("Object Repository/Test6_OR/Page_Login/input_Email_username"), findTestData("Data1").getValue(1, rowNum))
+

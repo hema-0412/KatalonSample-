@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Manual,Firefox 69.0,,,2019-11-25 12:07:46,2019-11-25 12:08:02,16.216s,INCOMPLETE
+,,,,,,,
+Test Cases/ManualMode/Test2_ManualMode,Firefox 69.0,,,2019-11-25 12:07:46,2019-11-25 12:08:02,15.981s,PASSED
+openBrowser(URL),Firefox 69.0,,,2019-11-25 12:07:46,2019-11-25 12:07:54,7.765s,PASSED
+"setText(findTestObject(""Test2_OR/Page_Execute Automation/input_Login_UserName""), username)",Firefox 69.0,,,2019-11-25 12:07:54,2019-11-25 12:07:54,0.271s,PASSED
+"setText(findTestObject(""Test2_OR/Page_Execute Automation/input_Login_Password""), password)",Firefox 69.0,,,2019-11-25 12:07:54,2019-11-25 12:07:55,0.165s,PASSED
+"click(findTestObject(""Test2_OR/Page_Execute Automation/input_Login_Login""))",Firefox 69.0,,,2019-11-25 12:07:55,2019-11-25 12:07:55,0.519s,PASSED
+"selectOptionByValue(findTestObject(""Test2_OR/Page_Execute Automation/select_SelectMrMs""), ""2"", true)",Firefox 69.0,,,2019-11-25 12:07:55,2019-11-25 12:07:56,0.644s,PASSED
+"setText(findTestObject(""Test2_OR/Page_Execute Automation/input_Initial_Initial""), ""N"")",Firefox 69.0,,,2019-11-25 12:07:56,2019-11-25 12:07:56,0.157s,PASSED
+"setText(findTestObject(""Test2_OR/Page_Execute Automation/input__FirstName""), ""Hema"")",Firefox 69.0,,,2019-11-25 12:07:56,2019-11-25 12:07:56,0.118s,PASSED
+"setText(findTestObject(""Test2_OR/Page_Execute Automation/input_Middle Name_MiddleName""), ""vathi"")",Firefox 69.0,,,2019-11-25 12:07:56,2019-11-25 12:07:56,0.114s,PASSED
+"click(findTestObject(""Test2_OR/Page_Execute Automation/input_MaleFemale_Female""))",Firefox 69.0,,,2019-11-25 12:07:56,2019-11-25 12:07:56,0.302s,PASSED
+"click(findTestObject(""Test2_OR/Page_Execute Automation/input_EnglishHindi_english""))",Firefox 69.0,,,2019-11-25 12:07:56,2019-11-25 12:07:57,0.303s,PASSED
+"click(findTestObject(""Test2_OR/Page_Execute Automation/input_EnglishHindi_Save""))",Firefox 69.0,,,2019-11-25 12:07:57,2019-11-25 12:07:57,0.296s,PASSED
+closeBrowser(),Firefox 69.0,,,2019-11-25 12:07:57,2019-11-25 12:08:00,2.746s,PASSED

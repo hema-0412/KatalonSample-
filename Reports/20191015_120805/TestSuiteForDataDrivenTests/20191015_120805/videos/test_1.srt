@@ -1,0 +1,40 @@
+1
+00:00:00,356 --> 00:00:00,360
+1. openBrowser("")
+
+2
+00:00:06,441 --> 00:00:06,442
+5. navigateToUrl(findTestData("Data2").getValue(1, 1))
+
+3
+00:00:10,698 --> 00:00:10,709
+9. for ([rowNum = 1, rowNum <= findTestData("Data1").getRowNumbers(), (rowNum++)])
+
+4
+00:00:10,735 --> 00:00:10,735
+1. setText(findTestObject("Object Repository/Test6_OR/Page_Login/input_Email_username"), findTestData("Data1").getValue(1, rowNum))
+
+5
+00:00:10,992 --> 00:00:10,993
+5. setEncryptedText(findTestObject("Object Repository/Test6_OR/Page_Login/input_Password_password"), findTestData("Data1").getValue(2, rowNum))
+
+6
+00:00:11,222 --> 00:00:11,223
+9. Thread.sleep(3000)
+
+7
+00:00:14,257 --> 00:00:14,258
+1. setText(findTestObject("Object Repository/Test6_OR/Page_Login/input_Email_username"), findTestData("Data1").getValue(1, rowNum))
+
+8
+00:00:14,415 --> 00:00:14,416
+5. setEncryptedText(findTestObject("Object Repository/Test6_OR/Page_Login/input_Password_password"), findTestData("Data1").getValue(2, rowNum))
+
+9
+00:00:14,537 --> 00:00:14,537
+9. Thread.sleep(3000)
+
+10
+00:00:17,564 --> 00:00:17,565
+13. click(findTestObject("Object Repository/Test6_OR/Page_Login/button_Login"))
+

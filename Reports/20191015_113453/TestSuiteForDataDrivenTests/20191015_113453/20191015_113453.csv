@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteForDataDrivenTests,Firefox 68.0,,,2019-10-15 11:34:55,2019-10-15 11:35:15,20.145s,INCOMPLETE
+,,,,,,,
+Test Cases/DataDrivenTest/Test6_DatadrivenTest,Firefox 68.0,,,2019-10-15 11:34:55,2019-10-15 11:35:15,19.891s,PASSED
+"openBrowser("""")",Firefox 68.0,,,2019-10-15 11:34:56,2019-10-15 11:35:01,5.676s,PASSED
+"navigateToUrl(findTestData(""Data2"").getValue(1, 1))",Firefox 68.0,,,2019-10-15 11:35:01,2019-10-15 11:35:06,4.275s,PASSED
+"for ([rowNum = 1, rowNum <= findTestData(""Data1"").getRowNumbers(), (rowNum++)])",Firefox 68.0,,,2019-10-15 11:35:06,2019-10-15 11:35:13,7.106s,PASSED
+"click(findTestObject(""Object Repository/Test6_OR/Page_Login/button_Login""))",Firefox 68.0,,,2019-10-15 11:35:13,2019-10-15 11:35:13,0.351s,PASSED

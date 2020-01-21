@@ -1,0 +1,8 @@
+1
+00:00:00,338 --> 00:00:00,343
+1. openBrowser("")
+
+2
+00:00:08,689 --> 00:00:08,690
+5. navigateToUrl(findTestData("Data2").getValue(1, 1))
+

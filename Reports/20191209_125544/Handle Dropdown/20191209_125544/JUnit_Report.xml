@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Handle Dropdown" time="20" tests="1" failures="0" errors="0">
+    <testsuite name="Handle Dropdown" tests="1" failures="0" errors="0" time="20" timestamp="2019-12-09 12:55:51" hostname="hemavathi - MSDES05.ad.matryxsoft.com" id="Test Suites/Handle Dropdown">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="D:\\Katalon sample projects\\Sample\\Reports\\20191209_125544\\Handle Dropdown\\20191209_125544"/>
+            <property name="logFiles" value="D:\\Katalon sample projects\\Sample\\Reports\\20191209_125544\\Handle Dropdown\\20191209_125544\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="hemavathi - MSDES05.ad.matryxsoft.com"/>
+            <property name="os" value="Windows 7 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Firefox 69.0"/>
+            <property name="hostAddress" value="10.10.20.4"/>
+            <property name="sessionId" value="f4e3b294-8c3a-412a-aea8-f4fc5388471c"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 7"/>
+        </properties>
+        <testcase name="Test Cases/handle drop down" classname="Test Cases/handle drop down" status="PASSED">
+            <system-out>2019-12-09 12:55:51 - [TEST_CASE][PASSED] - Test Cases/handle drop down: Test Cases/handle drop down&#xD;
+&#xD;
+2019-12-09 12:55:52 - [TEST_STEP][PASSED] - openBrowser("https://facebook.com"): Browser is opened with url: 'https://facebook.com'&#xD;
+&#xD;
+2019-12-09 12:55:52 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-12-09 12:55:52 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-12-09 12:56:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://facebook.com'&#xD;
+&#xD;
+2019-12-09 12:56:00 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully&#xD;
+&#xD;
+2019-12-09 12:56:00 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-12-09 12:56:00 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("HandleDropdown/Page_Facebook  log in or sign up/select_Day"), "19", true): All options with label '19' are selected in object 'Object Repository/HandleDropdown/Page_Facebook  log in or sign up/select_Day'  using regular expression&#xD;
+&#xD;
+2019-12-09 12:56:03 - [MESSAGE][PASSED] - All options with label '19' are selected in object 'Object Repository/HandleDropdown/Page_Facebook  log in or sign up/select_Day'  using regular expression&#xD;
+&#xD;
+2019-12-09 12:56:03 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("HandleDropdown/Page_Facebook  log in or sign up/select_Day"), "19", true, 30): 1 option(s) with label '19' is/are present in object 'Object Repository/HandleDropdown/Page_Facebook  log in or sign up/select_Day'  using regular expression&#xD;
+&#xD;
+2019-12-09 12:56:03 - [MESSAGE][PASSED] - 1 option(s) with label '19' is/are present in object 'Object Repository/HandleDropdown/Page_Facebook  log in or sign up/select_Day'  using regular expression&#xD;
+&#xD;
+2019-12-09 12:56:03 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("HandleDropdown/Page_Facebook  log in or sign up/select_Month"), "Nov", true): All options with label 'Nov' are selected in object 'Object Repository/HandleDropdown/Page_Facebook  log in or sign up/select_Month'  using regular expression&#xD;
+&#xD;
+2019-12-09 12:56:04 - [MESSAGE][PASSED] - All options with label 'Nov' are selected in object 'Object Repository/HandleDropdown/Page_Facebook  log in or sign up/select_Month'  using regular expression&#xD;
+&#xD;
+2019-12-09 12:56:04 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("HandleDropdown/Page_Facebook  log in or sign up/select_Year"), "1994", true): All options with label '1994' are selected in object 'Object Repository/HandleDropdown/Page_Facebook  log in or sign up/select_Year'  using regular expression&#xD;
+&#xD;
+2019-12-09 12:56:07 - [MESSAGE][PASSED] - All options with label '1994' are selected in object 'Object Repository/HandleDropdown/Page_Facebook  log in or sign up/select_Year'  using regular expression&#xD;
+&#xD;
+2019-12-09 12:56:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-12-09 12:56:10 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-12-09 12:55:51 - [TEST_SUITE][INCOMPLETE] - Handle Dropdown: null</system-out>
+        <system-err>2019-12-09 12:55:51 - [TEST_SUITE][INCOMPLETE] - Handle Dropdown: null</system-err>
+    </testsuite>
+</testsuites>

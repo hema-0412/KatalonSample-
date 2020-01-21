@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Manual,Firefox 69.0,,,2019-11-04 10:43:45,2019-11-04 10:43:57,11.678s,INCOMPLETE
+,,,,,,,
+Test Cases/ManualMode/Test2_ManualMode,Firefox 69.0,,,2019-11-04 10:43:46,2019-11-04 10:43:57,11.489s,FAILED
+openBrowser(URL),Firefox 69.0,,,2019-11-04 10:43:46,2019-11-04 10:43:54,8.257s,PASSED
+"setText(findTestObject(""Test2_OR/Page_Execute Automation/input_Login_UserName""), username)",Firefox 69.0,,,2019-11-04 10:43:54,2019-11-04 10:43:55,0.256s,PASSED
+"verifyElementText(findTestObject(""Test1_OR/Page_Execute Automation/input_Login_UserName""), ""hema"")",Firefox 69.0,,,2019-11-04 10:43:55,2019-11-04 10:43:55,0.301s,FAILED

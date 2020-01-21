@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sample,Firefox 69.0,,,2019-10-18 10:28:49,2019-10-18 10:29:03,13.580s,INCOMPLETE
+,,,,,,,
+Test Cases/SampleTestcases/DataDrivenTest,Firefox 69.0,,,2019-10-18 10:28:50,2019-10-18 10:29:03,13.312s,PASSED
+"openBrowser("""")",Firefox 69.0,,,2019-10-18 10:28:50,2019-10-18 10:28:56,6.060s,PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Firefox 69.0,,,2019-10-18 10:28:56,2019-10-18 10:28:58,1.882s,PASSED
+"setText(findTestObject(""Page_Execute Automation/input_Login_UserName""), username)",Firefox 69.0,,,2019-10-18 10:28:58,2019-10-18 10:28:59,0.326s,PASSED
+"setText(findTestObject(""Page_Execute Automation/input_Login_Password""), password)",Firefox 69.0,,,2019-10-18 10:28:59,2019-10-18 10:28:59,0.142s,PASSED
+"click(findTestObject(""Page_Execute Automation/input_Login_Login""))",Firefox 69.0,,,2019-10-18 10:28:59,2019-10-18 10:28:59,0.498s,PASSED
+"selectOptionByValue(findTestObject(""Page_Execute Automation/select_SelectMrMs""), ""2"", true)",Firefox 69.0,,,2019-10-18 10:28:59,2019-10-18 10:29:00,0.649s,PASSED
+"setText(findTestObject(""Page_Execute Automation/input_Initial_Initial""), ""N"")",Firefox 69.0,,,2019-10-18 10:29:00,2019-10-18 10:29:00,0.119s,PASSED
+"setText(findTestObject(""Page_Execute Automation/input__FirstName""), ""Hema"")",Firefox 69.0,,,2019-10-18 10:29:00,2019-10-18 10:29:00,0.143s,PASSED
+"setText(findTestObject(""Page_Execute Automation/input_Middle Name_MiddleName""), ""vathi"")",Firefox 69.0,,,2019-10-18 10:29:00,2019-10-18 10:29:00,0.142s,PASSED
+"click(findTestObject(""Page_Execute Automation/input_MaleFemale_Female""))",Firefox 69.0,,,2019-10-18 10:29:00,2019-10-18 10:29:01,0.295s,PASSED
+"click(findTestObject(""Page_Execute Automation/input_EnglishHindi_Save""))",Firefox 69.0,,,2019-10-18 10:29:01,2019-10-18 10:29:01,0.363s,PASSED

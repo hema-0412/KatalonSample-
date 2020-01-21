@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>CheckpointOne</name>
+   <tag></tag>
+   <excel-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>C:\Users\Hemavathi.Matryxsoft\Desktop\New folder\UserData.xlsx</source-url>
+      <source-type>ExcelFile</source-type>
+      <sheet-name-or-separator>Sheet1</sheet-name-or-separator>
+      <is-using-relative-path>false</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </excel-source-info>
+   <taken-date>2019-10-17T12:52:24.981</taken-date>
+   <column-names>
+      <column-name>Email</column-name>
+      <column-name>Password</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "user@phptravels.com",
+      "checked": true
+    },
+    {
+      "value": "6weEYLVRi3+STmppai9GiQ\u003d\u003d",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "hema@gmail.com",
+      "checked": true
+    },
+    {
+      "value": "6weEYLVRi3+STmppai9GiQ\u003d\u003d",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

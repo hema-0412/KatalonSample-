@@ -1,0 +1,12 @@
+1
+00:00:00,190 --> 00:00:00,195
+1. openBrowser(URL)
+
+2
+00:00:07,930 --> 00:00:07,931
+5. setText(findTestObject("Test2_OR/Page_Execute Automation/input_Login_UserName"), username)
+
+3
+00:00:08,184 --> 00:00:08,185
+9. verifyElementText(findTestObject("Test1_OR/Page_Execute Automation/input_Login_UserName"), "hema")
+

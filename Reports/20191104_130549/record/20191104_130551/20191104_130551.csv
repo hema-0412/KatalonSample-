@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+record,,,,2019-11-04 13:07:35,2019-11-04 13:07:40,5.610s,INCOMPLETE
+,,,,,,,
+Test Cases/RecordAndReplay/Test1_RecordAndReplay,,,,2019-11-04 13:07:35,2019-11-04 13:07:40,5.419s,FAILED
+"openBrowser("""")",,,,2019-11-04 13:07:35,2019-11-04 13:07:38,2.928s,FAILED

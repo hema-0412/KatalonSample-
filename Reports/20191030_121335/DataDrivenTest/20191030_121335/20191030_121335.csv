@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DataDrivenTest,Firefox 69.0,,,2019-10-30 12:13:42,2019-10-30 12:13:55,12.288s,INCOMPLETE
+,,,,,,,
+Test Cases/ManualMode/Test2_ManualMode,Firefox 69.0,,,2019-10-30 12:13:43,2019-10-30 12:13:55,12.042s,FAILED
+openBrowser(URL),Firefox 69.0,,,2019-10-30 12:13:43,2019-10-30 12:13:52,9.027s,PASSED
+"setText(findTestObject(""Test2_OR/Page_Execute Automation/input_Login_UserName""), username)",Firefox 69.0,,,2019-10-30 12:13:52,2019-10-30 12:13:52,0.254s,PASSED
+acceptAlert(),Firefox 69.0,,,2019-10-30 12:13:52,2019-10-30 12:13:53,0.200s,FAILED

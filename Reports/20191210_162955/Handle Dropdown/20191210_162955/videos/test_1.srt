@@ -1,0 +1,12 @@
+1
+00:00:00,232 --> 00:00:00,238
+1. openBrowser("https://facebook.com")
+
+2
+00:00:06,939 --> 00:00:06,939
+5. waitForPageLoad(60)
+
+3
+00:00:07,081 --> 00:00:07,083
+9. selectOptionByLabel(findTestObject("HandleDropdown/Page_Facebook  log in or sign up/select_Day"), "19", true)
+

@@ -1,0 +1,12 @@
+1
+00:00:00,200 --> 00:00:00,206
+1. openBrowser("http://executeautomation.com/demosite/Login.html")
+
+2
+00:00:08,763 --> 00:00:08,763
+5. setText(findTestObject("Test2_OR/Page_Execute Automation/input_Login_UserName"), username)
+
+3
+00:00:09,017 --> 00:00:09,017
+9. setEncryptedText(findTestObject("Test2_OR/Page_Execute Automation/input_Login_Password"), password)
+

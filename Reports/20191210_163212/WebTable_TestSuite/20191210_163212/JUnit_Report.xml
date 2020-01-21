@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WebTable_TestSuite" time="46.844" tests="1" failures="0" errors="0">
+   <testsuite name="WebTable_TestSuite" tests="1" failures="0" errors="0" time="46.844" timestamp="2019-12-10 16:32:20" hostname="hemavathi - MSDES05.ad.matryxsoft.com" id="Test Suites/WebTable_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon sample projects\\Sample\\Reports\\20191210_163212\\WebTable_TestSuite\\20191210_163212"/>
+         <property name="logFiles" value="D:\\Katalon sample projects\\Sample\\Reports\\20191210_163212\\WebTable_TestSuite\\20191210_163212\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hemavathi - MSDES05.ad.matryxsoft.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Firefox 69.0"/>
+         <property name="hostAddress" value="10.10.20.4"/>
+         <property name="sessionId" value="f7e3507c-4bca-4682-8674-5f65902bac8b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/WebTable/WebTable - Performing Action" time="39.111" classname="Test Cases/WebTable/WebTable - Performing Action" status="PASSED">
+         <system-out><![CDATA[2019-12-10 16:32:20 - [TEST_CASE][PASSED] - Test Cases/WebTable/WebTable - Performing Action: Test Cases/WebTable/WebTable - Performing Action
+
+2019-12-10 16:32:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-10 16:32:21 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-10 16:32:21 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-10 16:32:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-10 16:32:30 - [TEST_STEP][PASSED] - navigateToUrl("https://www.espn.in/mlb/team/depth/_/name/bos"): Navigate to 'https://www.espn.in/mlb/team/depth/_/name/bos' successfully
+
+2019-12-10 16:32:39 - [MESSAGE][PASSED] - Navigate to 'https://www.espn.in/mlb/team/depth/_/name/bos' successfully
+
+2019-12-10 16:32:39 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-10 16:32:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-10 16:32:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-12-10 16:32:39 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-10 16:32:39 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-12-10 16:32:39 - [TEST_STEP][PASSED] - ExpectedValue = "Heath Hembree": null
+
+2019-12-10 16:32:39 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div/div[5]/div[2]/div[5]/div[1]/div[1]/section/div/section/div[2]/div[1]/section/div[2]/div")): null
+
+2019-12-10 16:32:42 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2019-12-10 16:32:42 - [TEST_STEP][PASSED] - rows_count = rows_table.size(): null
+
+2019-12-10 16:32:42 - [TEST_STEP][PASSED] - println(rows_count): null
+
+2019-12-10 16:32:42 - [TEST_STEP][PASSED] - Value = false: null
+
+2019-12-10 16:32:42 - [TEST_STEP][PASSED] - for ([i = 0, i < rows_count, (i++)]): null
+
+2019-12-10 16:32:42 - [TEST_STEP][PASSED] - Columns_row = get(i).findElements(By.tagName("td")): null
+
+2019-12-10 16:32:42 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2019-12-10 16:32:42 - [TEST_STEP][PASSED] - println("Number of cells In Row " + i + " are " + columns_count): null
+
+2019-12-10 16:32:42 - [TEST_STEP][PASSED] - for ([j = 0, j < columns_count, (j++)]): null
+
+2019-12-10 16:32:42 - [TEST_STEP][PASSED] - if (Value == true): null
+
+2019-12-10 16:32:42 - [TEST_STEP][PASSED] - Columns_row = get(i).findElements(By.tagName("td")): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - println("Number of cells In Row " + i + " are " + columns_count): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - for ([j = 0, j < columns_count, (j++)]): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - celltext = get(j).getText(): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (Value == false): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - celltext = get(j).getText(): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (Value == false): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - celltext = get(j).getText(): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (Value == false): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - celltext = get(j).getText(): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (Value == false): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - celltext = get(j).getText(): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (Value == false): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (Value == true): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - Columns_row = get(i).findElements(By.tagName("td")): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - println("Number of cells In Row " + i + " are " + columns_count): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - for ([j = 0, j < columns_count, (j++)]): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - celltext = get(j).getText(): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (Value == false): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - celltext = get(j).getText(): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (Value == false): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - celltext = get(j).getText(): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (Value == false): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - celltext = get(j).getText(): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (Value == false): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - celltext = get(j).getText(): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - println("Cell Value Of row number " + i + " and column number " + j + " Is " + celltext): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (Value == false): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - if (celltext == ExpectedValue): null
+
+2019-12-10 16:32:43 - [TEST_STEP][PASSED] - tagName("a")).click(): null
+
+2019-12-10 16:32:51 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-10 16:32:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-10 16:32:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Heath Hembree Stats - Boston Red Sox - ESPN/a_Stats")): Object: 'Object Repository/Page_Heath Hembree Stats - Boston Red Sox - ESPN/a_Stats' is clicked on
+
+2019-12-10 16:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Heath Hembree Stats - Boston Red Sox - ESPN/a_Stats' is clicked on
+
+2019-12-10 16:32:57 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-10 16:32:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-10 16:32:57 - [TEST_STEP][PASSED] - Value = true: null
+
+2019-12-10 16:32:57 - [TEST_STEP][PASSED] - break: null
+
+2019-12-10 16:32:57 - [TEST_STEP][PASSED] - if (Value == true): null
+
+2019-12-10 16:32:57 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-10 16:32:20 - [TEST_SUITE][PASSED] - WebTable_TestSuite: Test Cases/WebTable/WebTable - Performing Action]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

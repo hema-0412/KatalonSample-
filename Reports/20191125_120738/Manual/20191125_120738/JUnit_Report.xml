@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Manual" time="16" tests="1" failures="0" errors="0">
+    <testsuite name="Manual" tests="1" failures="0" errors="0" time="16" timestamp="2019-11-25 12:07:46" hostname="hemavathi - MSDES05.ad.matryxsoft.com" id="Test Suites/Manual">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="D:\\Katalon sample projects\\Sample\\Reports\\20191125_120738\\Manual\\20191125_120738"/>
+            <property name="logFiles" value="D:\\Katalon sample projects\\Sample\\Reports\\20191125_120738\\Manual\\20191125_120738\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="hemavathi - MSDES05.ad.matryxsoft.com"/>
+            <property name="os" value="Windows 7 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Firefox 69.0"/>
+            <property name="hostAddress" value="10.10.20.4"/>
+            <property name="sessionId" value="9adca503-e13d-49fe-a012-b261da0c0be3"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 7"/>
+        </properties>
+        <testcase name="Test Cases/ManualMode/Test2_ManualMode" classname="Test Cases/ManualMode/Test2_ManualMode" status="PASSED">
+            <system-out>2019-11-25 12:07:46 - [TEST_CASE][PASSED] - Test Cases/ManualMode/Test2_ManualMode: Test Cases/ManualMode/Test2_ManualMode&#xD;
+&#xD;
+2019-11-25 12:07:46 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'http://executeautomation.com/demosite/Login.html'&#xD;
+&#xD;
+2019-11-25 12:07:47 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-11-25 12:07:47 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-11-25 12:07:54 - [MESSAGE][PASSED] - Browser is opened with url: 'http://executeautomation.com/demosite/Login.html'&#xD;
+&#xD;
+2019-11-25 12:07:54 - [TEST_STEP][PASSED] - setText(findTestObject("Test2_OR/Page_Execute Automation/input_Login_UserName"), username): Text 'admin' is set on object 'Object Repository/Test2_OR/Page_Execute Automation/input_Login_UserName'&#xD;
+&#xD;
+2019-11-25 12:07:54 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Test2_OR/Page_Execute Automation/input_Login_UserName'&#xD;
+&#xD;
+2019-11-25 12:07:54 - [TEST_STEP][PASSED] - setText(findTestObject("Test2_OR/Page_Execute Automation/input_Login_Password"), password): Text 'admin' is set on object 'Object Repository/Test2_OR/Page_Execute Automation/input_Login_Password'&#xD;
+&#xD;
+2019-11-25 12:07:55 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Test2_OR/Page_Execute Automation/input_Login_Password'&#xD;
+&#xD;
+2019-11-25 12:07:55 - [TEST_STEP][PASSED] - click(findTestObject("Test2_OR/Page_Execute Automation/input_Login_Login")): Object: 'Object Repository/Test2_OR/Page_Execute Automation/input_Login_Login' is clicked on&#xD;
+&#xD;
+2019-11-25 12:07:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Test2_OR/Page_Execute Automation/input_Login_Login' is clicked on&#xD;
+&#xD;
+2019-11-25 12:07:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Test2_OR/Page_Execute Automation/select_SelectMrMs"), "2", true): All options with value '2' are selected in object 'Object Repository/Test2_OR/Page_Execute Automation/select_SelectMrMs'  using regular expression&#xD;
+&#xD;
+2019-11-25 12:07:56 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Test2_OR/Page_Execute Automation/select_SelectMrMs'  using regular expression&#xD;
+&#xD;
+2019-11-25 12:07:56 - [TEST_STEP][PASSED] - setText(findTestObject("Test2_OR/Page_Execute Automation/input_Initial_Initial"), "N"): Text 'N' is set on object 'Object Repository/Test2_OR/Page_Execute Automation/input_Initial_Initial'&#xD;
+&#xD;
+2019-11-25 12:07:56 - [MESSAGE][PASSED] - Text 'N' is set on object 'Object Repository/Test2_OR/Page_Execute Automation/input_Initial_Initial'&#xD;
+&#xD;
+2019-11-25 12:07:56 - [TEST_STEP][PASSED] - setText(findTestObject("Test2_OR/Page_Execute Automation/input__FirstName"), "Hema"): Text 'Hema' is set on object 'Object Repository/Test2_OR/Page_Execute Automation/input__FirstName'&#xD;
+&#xD;
+2019-11-25 12:07:56 - [MESSAGE][PASSED] - Text 'Hema' is set on object 'Object Repository/Test2_OR/Page_Execute Automation/input__FirstName'&#xD;
+&#xD;
+2019-11-25 12:07:56 - [TEST_STEP][PASSED] - setText(findTestObject("Test2_OR/Page_Execute Automation/input_Middle Name_MiddleName"), "vathi"): Text 'vathi' is set on object 'Object Repository/Test2_OR/Page_Execute Automation/input_Middle Name_MiddleName'&#xD;
+&#xD;
+2019-11-25 12:07:56 - [MESSAGE][PASSED] - Text 'vathi' is set on object 'Object Repository/Test2_OR/Page_Execute Automation/input_Middle Name_MiddleName'&#xD;
+&#xD;
+2019-11-25 12:07:56 - [TEST_STEP][PASSED] - click(findTestObject("Test2_OR/Page_Execute Automation/input_MaleFemale_Female")): Object: 'Object Repository/Test2_OR/Page_Execute Automation/input_MaleFemale_Female' is clicked on&#xD;
+&#xD;
+2019-11-25 12:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Test2_OR/Page_Execute Automation/input_MaleFemale_Female' is clicked on&#xD;
+&#xD;
+2019-11-25 12:07:56 - [TEST_STEP][PASSED] - click(findTestObject("Test2_OR/Page_Execute Automation/input_EnglishHindi_english")): Object: 'Object Repository/Test2_OR/Page_Execute Automation/input_EnglishHindi_english' is clicked on&#xD;
+&#xD;
+2019-11-25 12:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Test2_OR/Page_Execute Automation/input_EnglishHindi_english' is clicked on&#xD;
+&#xD;
+2019-11-25 12:07:57 - [TEST_STEP][PASSED] - click(findTestObject("Test2_OR/Page_Execute Automation/input_EnglishHindi_Save")): Object: 'Object Repository/Test2_OR/Page_Execute Automation/input_EnglishHindi_Save' is clicked on&#xD;
+&#xD;
+2019-11-25 12:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Test2_OR/Page_Execute Automation/input_EnglishHindi_Save' is clicked on&#xD;
+&#xD;
+2019-11-25 12:07:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-11-25 12:08:00 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-11-25 12:07:46 - [TEST_SUITE][INCOMPLETE] - Manual: null</system-out>
+        <system-err>2019-11-25 12:07:46 - [TEST_SUITE][INCOMPLETE] - Manual: null</system-err>
+    </testsuite>
+</testsuites>
